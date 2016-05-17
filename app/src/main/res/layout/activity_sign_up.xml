@@ -21,7 +21,8 @@
             android:text="Sign Up"
             android:id="@+id/textView2"
             android:layout_gravity="center_horizontal"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:textColor="@color/text" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -34,7 +35,8 @@
                 android:text="Name :"
                 android:id="@+id/textView3"
                 android:textSize="25sp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text" />
 
             <EditText
                 android:layout_width="0dp"
@@ -54,7 +56,8 @@
                 android:text="User :"
                 android:id="@+id/textView4"
                 android:textSize="25sp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text" />
 
             <EditText
                 android:layout_width="0dp"
@@ -74,7 +77,8 @@
                 android:text="Password :"
                 android:id="@+id/textView5"
                 android:textSize="25sp"
-                android:layout_weight="1.2" />
+                android:layout_weight="1.2"
+                android:textColor="@color/text" />
 
             <EditText
                 android:layout_width="0dp"
