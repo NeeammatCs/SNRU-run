@@ -13,10 +13,10 @@ public class MyManage {
 
     public static final String user_table = "userTABLE";
     public static final String colum_id = "_id";
-    public static final String colum_name = "name";
-    public static final String colum_user = "user";
-    public static final String colum_password = "password";
-    public static final String colum_avata = "avata";
+    public static final String colum_name = "Name";
+    public static final String colum_user = "User";
+    public static final String colum_password = "Password";
+    public static final String colum_avata = "Avata";
 
     public MyManage(Context context) {
         myOpenHelper = new MyOpenHelper(context);
@@ -34,7 +34,7 @@ public class MyManage {
         contentValues.put(colum_password,strPassword);
         contentValues.put(colum_avata,strAvata);
 
-        return sqLiteDatabase.insert(user_table,null,contentValues);
+        return sqLiteDatabase.insert(user_table,null, contentValues);
 
     }
 
